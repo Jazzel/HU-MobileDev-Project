@@ -1,0 +1,24 @@
+{
+  "name": "HU-MobileDev-Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Jazzel/HU-MobileDev-Project.git",
+  "author": "Muhammad Jazzel Mehmood <jazzelmehmood4@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.2",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mssql": "^10.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  }
+}

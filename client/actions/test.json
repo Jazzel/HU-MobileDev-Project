@@ -1,0 +1,46 @@
+{
+  "DONE": 4,
+  "HEADERS_RECEIVED": 2,
+  "LOADING": 3,
+  "OPENED": 1,
+  "UNSENT": 0,
+  "_aborted": false,
+  "_hasError": true,
+  "_headers": {
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json"
+  },
+  "_incrementalEvents": false,
+  "_lowerCaseResponseHeaders": {},
+  "_method": "POST",
+  "_perfKey": "network_XMLHttpRequest_http://localhost:5000/api/users/login",
+  "_performanceLogger": {
+    "_closed": false,
+    "_extras": {},
+    "_isLoggingForWebPerformance": false,
+    "_pointExtras": {},
+    "_points": {
+      "initializeCore_end": 477911330.276638,
+      "initializeCore_start": 477911075.881869
+    },
+    "_timespans": {
+      "network_XMLHttpRequest_http://192.168.0.104:8081/logs": [],
+      "network_XMLHttpRequest_http://192.168.0.104:8081/symbolicate": [],
+      "network_XMLHttpRequest_http://localhost:5000/api/users/login": []
+    }
+  },
+  "_requestId": null,
+  "_response": "Failed to connect to localhost/127.0.0.1:5000",
+  "_responseType": "",
+  "_sent": true,
+  "_subscriptions": [],
+  "_timedOut": false,
+  "_trackingName": "unknown",
+  "_url": "http://localhost:5000/api/users/login",
+  "readyState": 4,
+  "responseHeaders": undefined,
+  "status": 0,
+  "timeout": 0,
+  "upload": {},
+  "withCredentials": true
+}

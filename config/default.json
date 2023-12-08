@@ -1,0 +1,10 @@
+{
+  "JWTsecretToken": "I'M BATMAN",
+  "secret": "BATMAN",
+  "sqlServer": {
+    "server": "MSI\\SQLEXPRESS",
+    "database": "sports_pulse",
+    "user": "sa",
+    "password": "Mpower1234"
+  }
+}
